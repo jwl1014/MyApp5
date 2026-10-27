@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# 데이터베이스 (로컬 기록)
+*.db
+*.db-journal
+
+# 비밀 정보
+.streamlit/secrets.toml
+
+# Playwright MCP 산출물
+.playwright-mcp/
